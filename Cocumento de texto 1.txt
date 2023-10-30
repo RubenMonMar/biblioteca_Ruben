@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class NumeroPar {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//Titulo del programa
+		System.out.println("INDICA SI EL NUMERO ES PAR");
+		
+		//Pedimos un valor numerico entero
+		System.out.print("Introduzca un valor númerico entero: ");
+		int valor1 = Integer.parseInt(sc.nextLine());
+		
+		//Realizamos la operacion
+		boolean par = (valor1 % 2) == 0;
+		
+		if (par) {
+			System.out.println("El número " + valor1 + " es par");
+		}else {
+			System.out.println("El número " + valor1 + " es impar");
+		}
+		
+	}
+
+}
