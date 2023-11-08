@@ -8,7 +8,7 @@ Estamos aprendiendo a trabajar con GIT y para eso hermos creado este repositorio
 - Aprendo de otros desarrolladors consultando sus repositorios
 
 ### **Flujo de trabajao GIT**
-Para añadir un fichero a nuestro repositorio remoto de [GitHub](https://docs.github.com). tenemos que seguir los siguientes pasos:
+Para añadir un fichero a nuestro repositorio remoto de [GitHub](https://docs.github.com) tenemos que seguir los siguientes pasos:
 'git add fichero'
 'git commit -m "Comentario sobre el commit"'
 'git push'
